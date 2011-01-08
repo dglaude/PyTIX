@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 # Displays the TIX clock using Curses
-# 2007-02-16
+# 2011-01-08
 
-# Usage: pytix_c.py [update interval]
+# Usage: pytix_c.py [update interval] [--24]
 
 import sys, time, random, curses
 
@@ -11,6 +11,11 @@ assert sys.version >= '2.3', "Python 2.3 or later required."
 
 try: inter = int(sys.argv[1])
 except: inter = 4		# default update interval (secs)
+
+if '--24' in sys.argv:
+	f = '%H%M'
+else:
+	f = '%I%M'
 
 def tog(start, end, n, col = 2):
 	"Toggle on n values randomly in the array between start and end."
@@ -40,7 +45,7 @@ def mainprog(win):
 	curses.init_pair(5, curses.COLOR_WHITE, curses.COLOR_BLUE)
 
 	while True:
-		t = time.strftime("%I%M", time.localtime())
+		t = time.strftime(f, time.localtime())
 		h1, h2, m1, m2 = [int(x) for x in t]
 		disp = [[2, 1, 2, 2, 2, 1, 2, 2, 1, 2, 2, 2] for y in range(3)]
 		tog(0, 1, h1, 3)

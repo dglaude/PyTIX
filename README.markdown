@@ -2,7 +2,7 @@ PyTIX is an implementation of the TIX LED clock in Python. It uses [curses][1] t
 
 ##Usage
 
-`python pytix_c.py [update interval, defaults to 4 seconds]`
+`python pytix_c.py [update interval, defaults to 4 seconds] ["--24" for 24-hour mode]`
 
 ##Interpretation
 
