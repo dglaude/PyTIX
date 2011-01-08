@@ -27,7 +27,7 @@ def tog(start, end, n, col = 2):
 def getsym(n):
 	"Return the on/off LED symbol."
 	if n > 2: return ' '
-	elif n == 1: return ':'
+	elif n == 1: return '-'
 	else: return '+'
 
 def mainprog(win):
