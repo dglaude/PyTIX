@@ -1,7 +1,7 @@
 PyTIX is an implementation of the TIX LED clock in Python.
 
-The original version(1) used [curses](2) to draw the clock to a terminal window.
-This version use the mote(3) library to display the time.
+The [original version](https://github.com/mdoege/PyTIX) used [curses](http://docs.python.org/library/curses.html) to draw the clock to a terminal window.
+This version use the [mote](https://github.com/pimoroni/mote) library to display the time.
 Require mote hardware from Pimoroni.
 
 ##Usage
@@ -16,6 +16,3 @@ Count the groups of colored squares from left to right to get the time&mdash;e.g
 
 `Ctrl-C` at the moment.
 
-(1): https://github.com/mdoege/PyTIX
-(2): http://docs.python.org/library/curses.html
-(3): https://github.com/pimoroni/mote
