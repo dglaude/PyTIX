@@ -16,7 +16,6 @@ try:
 except ImportError:
     exit("This script requires the mote module\nInstall with: pip install mote")
 
-## I don't know why a minimum version is required...
 assert sys.version >= '2.3', "Python 2.3 or later required."
 
 try: inter = int(sys.argv[1])
