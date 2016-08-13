@@ -4,7 +4,9 @@ It can either use [curses](http://docs.python.org/library/curses.html) to draw t
 
 ##Usage
 
-`python pytix[_mote].py [update interval, defaults to 1 seconds] ["--12" for 12-hour mode]`
+`python pytix.py [update interval, defaults to 4 seconds] ["--24" for 24-hour mode]`
+
+`python pytix_mote.py [update interval, defaults to 1 second] ["--12" for 12-hour mode]`
 
 ##Interpretation
 
