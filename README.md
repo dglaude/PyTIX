@@ -12,5 +12,5 @@ Count the groups of colored squares from left to right to get the time&mdash;e.g
 
 ##Quitting
 
-`Ctrl-C` at the moment.
+`Ctrl-C`
 
