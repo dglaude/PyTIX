@@ -1,4 +1,7 @@
-PyTIX is an implementation of the TIX LED clock in Python.
+#PyTIX, an implementation of the TIX LED clock in Python
+
+![screenshot](https://github.com/mdoege/PyTIX/raw/master/screenshot.png "PyTIX screenshot")
+_11:53…_
 
 It can either use [curses](http://docs.python.org/library/curses.html) to draw the clock to a terminal window or use the [mote](https://github.com/pimoroni/mote) library to display the time. (Requires mote hardware from Pimoroni.)
 
