@@ -8,7 +8,7 @@ _11:53…_
 
 _Video of the Pimoroni Mote version by David Glaude (https://twitter.com/DavidGlaude/status/764214446822678528)_
 
-PyTIX can either use [curses](http://docs.python.org/library/curses.html) to draw the clock to a terminal window or use the [mote](https://github.com/pimoroni/mote) library to display the time. (Requires mote hardware from Pimoroni.)
+PyTIX can either use [curses](http://docs.python.org/library/curses.html) to draw the clock to a terminal window or use the [mote](https://github.com/pimoroni/mote) library to display the time. (Requires [Pimoroni Mote](https://shop.pimoroni.com/products/mote) hardware.)
 
 ##Usage
 
